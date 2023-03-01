@@ -3,7 +3,11 @@
   align-items: baseline;
 }
 
-/* 2. exercice-baseline-2 */
+.exercice-baseline-2 .container{
+  display: flex;
+  align-items: baseline;
+  flex-flow: row wrap-reverse;
+}
 
 /* 3. exercice-baseline-3 */
 
