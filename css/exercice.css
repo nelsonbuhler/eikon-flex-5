@@ -9,7 +9,12 @@
   flex-flow: row wrap-reverse;
 }
 
-/* 3. exercice-baseline-3 */
+.exercice-baseline-3 .container{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+}
 
 /* 4. exercice-flow-1 */
 
