@@ -36,6 +36,7 @@
   display: flex;
   flex-flow: column-reverse wrap-reverse;
   align-content: center;
+ justify-content: space-between;
 }
 
 .exercice-all-in-2 .container{
@@ -43,6 +44,7 @@
   flex-flow: row wrap;
   align-items: baseline;
   align-content: center;
+ 
 }
 
 .exercice-all-in-2 .element-pink{
