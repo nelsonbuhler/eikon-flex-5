@@ -29,6 +29,12 @@
 
 .exercice-all-in-1 .container{
   display: flex;
+  flex-flow: column-reverse wrap-reverse;
+  align-content: center;
+}
+
+.exercice-all-in-1 .element-grey{
+  background-color: aquamarine;
 }
 
 .exercice-all-in-2 .container{
