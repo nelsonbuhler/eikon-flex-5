@@ -29,8 +29,10 @@
 
 .exercice-all-in-1 .container{
   display: flex;
-  background-color: aquamarine;
 }
-/* 6. exercice-all-in-1 */
 
-/* 7. exercice-all-in-2 */
+.exercice-all-in-2 .container{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: baseline;
+}
