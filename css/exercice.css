@@ -16,6 +16,10 @@
   justify-content: center;
 }
 
+.exercice-flow-1 .container{
+  display: flex;
+  flex-flow: wrap;
+}
 /* 4. exercice-flow-1 */
 
 /* 5. exercice-flow-2 */
