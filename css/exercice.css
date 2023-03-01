@@ -6,7 +6,12 @@
 .exercice-baseline-2 .container{
   display: flex;
   align-items: baseline;
-  flex-flow: row wrap-reverse;
+  flex-flow: row-reverse wrap-reverse;
+}
+
+.exercice-baseline-2 .element{
+  width: 50%;
+  box-sizing: border-box;
 }
 
 .exercice-baseline-3 .container{
@@ -31,9 +36,6 @@
   display: flex;
   flex-flow: column-reverse wrap-reverse;
   align-content: center;
-}
-
-.exercice-all-in-1 .element-grey{
 }
 
 .exercice-all-in-2 .container{
