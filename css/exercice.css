@@ -34,11 +34,20 @@
 }
 
 .exercice-all-in-1 .element-grey{
-  background-color: aquamarine;
 }
 
 .exercice-all-in-2 .container{
   display: flex;
   flex-flow: row wrap;
   align-items: baseline;
+  align-content: center;
+}
+
+.exercice-all-in-2 .element-pink{
+  order: 2;
+  flex-grow: 1;
+}
+
+.exercice-all-in-2 .element-blue{
+  flex-grow: 1;
 }
